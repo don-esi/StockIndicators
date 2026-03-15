@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11605.240 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortfolioManager.StockIndicators", "src\PortfolioManager.StockIndicators.csproj", "{C2798B13-AEF3-419D-A4A3-9B81CF46BF60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortfolioManager.StockIndicators.Tests.Unit", "tests\PortfolioManager.StockIndicators.Tests.Unit.csproj", "{8D02D6D5-E340-49E1-8A42-40EA86315CDE}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LinqOptimizer.Core", "..\LinqOptimizer\src\LinqOptimizer.Core\LinqOptimizer.Core.fsproj", "{56AFD0F6-6CDB-1F83-642D-B841C312B406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqOptimizer.Base", "..\LinqOptimizer\src\LinqOptimizer.Base\LinqOptimizer.Base.csproj", "{BF2B9B8E-0435-EA21-FF98-FD5DD62A83C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqOptimizer.CSharp", "..\LinqOptimizer\src\LinqOptimizer.CSharp\LinqOptimizer.CSharp.csproj", "{AA1A791B-DA0F-E0D9-1253-4129916FC1F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2798B13-AEF3-419D-A4A3-9B81CF46BF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2798B13-AEF3-419D-A4A3-9B81CF46BF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2798B13-AEF3-419D-A4A3-9B81CF46BF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2798B13-AEF3-419D-A4A3-9B81CF46BF60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D02D6D5-E340-49E1-8A42-40EA86315CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D02D6D5-E340-49E1-8A42-40EA86315CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D02D6D5-E340-49E1-8A42-40EA86315CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D02D6D5-E340-49E1-8A42-40EA86315CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56AFD0F6-6CDB-1F83-642D-B841C312B406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AFD0F6-6CDB-1F83-642D-B841C312B406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AFD0F6-6CDB-1F83-642D-B841C312B406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AFD0F6-6CDB-1F83-642D-B841C312B406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2B9B8E-0435-EA21-FF98-FD5DD62A83C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2B9B8E-0435-EA21-FF98-FD5DD62A83C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2B9B8E-0435-EA21-FF98-FD5DD62A83C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2B9B8E-0435-EA21-FF98-FD5DD62A83C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA1A791B-DA0F-E0D9-1253-4129916FC1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1A791B-DA0F-E0D9-1253-4129916FC1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1A791B-DA0F-E0D9-1253-4129916FC1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1A791B-DA0F-E0D9-1253-4129916FC1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8553B6C1-6080-4FC5-9EFE-900E9A86574A}
+	EndGlobalSection
+EndGlobal

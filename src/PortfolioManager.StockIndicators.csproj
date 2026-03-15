@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net8.0;net461</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
@@ -10,23 +9,24 @@
     <Description>Largest C# stock indicator library with over 750 to choose from and easiest to use with abilities such as making an indicator out of any other indicator or using any moving average with any indicator. </Description>
     <Version>1.1.0</Version>
     <Authors>ooples</Authors>
-    <Company>Ooples Finance</Company>
-    <RepositoryUrl>https://github.com/ooples/OoplesFinance.StockIndicators</RepositoryUrl>
+    <Company></Company>
+    <RepositoryUrl>https://github.com/ooples/PortfolioManager.StockIndicators</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageReleaseNotes>https://github.com/ooples/OoplesFinance.StockIndicators/releases</PackageReleaseNotes>
-    <PackageProjectUrl>https://github.com/ooples/OoplesFinance.StockIndicators</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/ooples/PortfolioManager.StockIndicators/releases</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/ooples/PortfolioManager.StockIndicators</PackageProjectUrl>
     <PackageTags>stock; stocks; technical; indicators; market; markets; analysis; library; finance; financial; indicator; moving average; algorithm; algorithms; trading; trades; algorithmic; ai; trade; indicators; technical indicators; technical analysis; stock indicators; crypto; bitcoin, cryptocurrency; forex; adaptive; kaufman; rsi; simple; weighted; exponential; moving; average; equity; strategy; chart; charting; mfi; cmf; relative; strength; index; volume; open; high; low; close; typical price; stochastic; adx; directional; reverse; trailing stop; pivot points; pivot; points; ultimate; ulcer; correlation; slope; cycle; standard; macd; schaff; ehlers; john ehlers; package; library; .net; c#; obv; nvi; pvi; beta; standard; deviation; bull; bear; smoothed; smooth; smoothing; chandelier; exit; atr; aroon; bollinger; bollinger bands; bands; price channels; hilbert; transform; chaikin; wilder; welles wilder; williams; larry williams; money; flow; parabolic; donchian; keltner; channel; alligator; gator; supertrend; fractal; chaos; oscillators; choppiness</PackageTags>
-    <Copyright>Ooples Finance LLC 2021-2022</Copyright>
+    <Copyright></Copyright>
     <PackageIcon>Favicon.jpg</PackageIcon>
     <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
     <UseWindowsForms>False</UseWindowsForms>
     <UseWPF>False</UseWPF>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <SignAssembly>True</SignAssembly>
-    <Title>Ooples Finance Stock Indicators</Title>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Title>Finance Stock Indicators</Title>
+    <PackageReadmeFile></PackageReadmeFile>
+    <TargetFramework>net10.0</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -39,21 +39,6 @@
     <Optimize>True</Optimize>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0|AnyCPU'">
-    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0|AnyCPU'">
-    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net461|AnyCPU'">
-    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net461|AnyCPU'">
-    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
-  </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="bin\**" />
@@ -66,14 +51,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Calculations\eladq3fp.fhq~" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="LinqOptimizer.CSharp" Version="0.7.0" />
     <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
-    <PackageReference Include="System.Net.Http" Version="4.3.4" />
-    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -86,5 +64,9 @@
       <PackagePath>\</PackagePath>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LinqOptimizer\src\LinqOptimizer.CSharp\LinqOptimizer.CSharp.csproj" />
   </ItemGroup>
 </Project>

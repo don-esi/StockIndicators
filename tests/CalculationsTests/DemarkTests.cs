@@ -1,4 +1,4 @@
-﻿namespace OoplesFinance.StockIndicators.Tests.Unit.CalculationsTests;
+﻿namespace PortfolioManager.StockIndicators.Tests.Unit.CalculationsTests;
 
 public sealed class DemarkTests
 {

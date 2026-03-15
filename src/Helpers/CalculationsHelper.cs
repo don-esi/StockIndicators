@@ -1,5 +1,5 @@
 //     Ooples Finance Stock Indicator Library
-//     https://ooples.github.io/OoplesFinance.StockIndicators/
+//     https://ooples.github.io/PortfolioManager.StockIndicators/
 //
 //     Copyright � Franklin Moormann, 2020-2022
 //     cheatcountry@gmail.com
@@ -8,7 +8,7 @@
 //     so if you are going to re-use or modify my code then I just ask
 //     that you include my copyright info and my contact info in a comment
 
-namespace OoplesFinance.StockIndicators.Helpers;
+namespace PortfolioManager.StockIndicators.Helpers;
 
 public static class CalculationsHelper
 {
@@ -588,7 +588,7 @@ public static class CalculationsHelper
     /// </summary>
     /// <param name="stockData">The stock data.</param>
     /// <returns></returns>
-    /// <exception cref="OoplesFinance.StockIndicators.Exceptions.CalculationException">Calculations based off of 
+    /// <exception cref="PortfolioManager.StockIndicators.Exceptions.CalculationException">Calculations based off of 
     /// {stockData.IndicatorName} can't be completed because this indicator doesn't have a single output.</exception>
     public static (List<double> inputList, List<double> highList, List<double> lowList, List<double> openList, List<double> volumeList) 
         GetInputValuesList(StockData stockData)

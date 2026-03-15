@@ -1,4 +1,4 @@
-﻿namespace OoplesFinance.StockIndicators.Tests.Unit.TestData;
+﻿namespace PortfolioManager.StockIndicators.Tests.Unit.TestData;
 
 public class GlobalTestData
 {
